@@ -20,6 +20,10 @@ const home = () => {
                     SIGN IN
                 </button>
 
+                {/* <button className={styles.button}>
+                    SIGN IN
+                </button> */}
+
                 <div>
                     <Link href="/test" className={styles.title}>Forgot Password?</Link>
                 </div>
