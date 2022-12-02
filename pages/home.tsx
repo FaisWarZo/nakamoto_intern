@@ -8,7 +8,7 @@ const home = () => {
         <>
             <Navbar />
             <div className={styles.grid}>
-                <h2>SIGN IN</h2>
+                <h2 className='text-2xl'>SIGN IN</h2>
                 <div>
                     <input type="email" id="loginName" placeholder="Email address" className={styles.input} />
                 </div>

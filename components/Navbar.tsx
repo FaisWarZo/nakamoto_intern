@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import picture from '../.next/image/logo.png'
+import picture from '../image/logo.png'
 import styles from '../styles/navbar.module.css'
 
 const Navbar = () => {
     return (
-        <div className={styles.static}>
+        <div className='text-lg border border-gray-700'>
             <header className={styles.body}>
                 <div className={styles.navbar}>
                     <Image
@@ -16,18 +16,18 @@ const Navbar = () => {
                     />
                     <div className={styles.position}>
                         <div>
-                            <h1 className={styles.header}>MARKETPLACE_</h1>
+                            <h1 className='text-2xl text-red-600 mb-8 mt-4 ml-6'>MARKETPLACE_</h1>
                         </div>
                         <nav>
                             <ul className={styles.navbar}>
                                 <li>
-                                    <Link href='#' className={styles.title}>NAKA MARKET</Link>
+                                    <Link href='#' className='text-lg border border-gray-700 p-6 '>NAKA MARKET</Link>
                                 </li>
                                 <li>
-                                    <Link href='#' className={styles.title}>P2P MARKET</Link>
+                                    <Link href='#' className='text-lg border border-gray-700  p-6'>P2P MARKET</Link>
                                 </li>
                                 <li>
-                                    <Link href='#' className={styles.title}>NAKAVERSE MAP</Link>
+                                    <Link href='#' className='text-lg border border-gray-700 p-6'>NAKAVERSE MAP</Link>
                                 </li>
                             </ul>
 
