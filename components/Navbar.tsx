@@ -16,7 +16,7 @@ const Navbar = () => {
                     />
                     <div className={styles.position}>
                         <div>
-                            <h1 className='text-2xl text-red-600 mb-8 mt-4 ml-6'>MARKETPLACE_</h1>
+                            <h1 className='text-2xl text-red-600 mb-8 mt-4 ml-6'> MARKETPLACE_</h1>
                         </div>
                         <nav>
                             <ul className={styles.navbar}>
